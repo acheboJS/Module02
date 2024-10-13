@@ -1,0 +1,10 @@
+const piValue = 3.1415926;
+var myArea;
+var headingText = "<h1>Module 2</h1>";
+let Fname = prompt("Please enter your first name:");
+let myFavNum = prompt("Please enter your favorite number:");
+var r = myFavNum;
+myArea = piValue*r**2;
+
+document.write(headingText);
+document.write("Hello " + Fname + " your favorite number is, " + myFavNum + ". The area of a circle using your number as the radius would be, " + myArea);
